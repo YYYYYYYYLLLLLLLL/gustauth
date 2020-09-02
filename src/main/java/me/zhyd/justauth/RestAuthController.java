@@ -152,9 +152,9 @@ public class RestAuthController {
                 break;
             case "gitee":
                 authRequest = new AuthGiteeRequest(AuthConfig.builder()
-                        .clientId("")
-                        .clientSecret("")
-                        .redirectUri("")
+                        .clientId("ced5eb9debc545f1e50ebbe2f5b81c655985a7f615fe29a666ab1cc800710780")
+                        .clientSecret("721eaadc056cd85284f9e8fbdde8533e798cfd6fc7a502fdec06e38bf0592399")
+                        .redirectUri("http://localhost:8443/oauth/callback/gitee")
                         .build(), stateRedisCache);
                 break;
             case "weibo":
