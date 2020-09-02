@@ -383,6 +383,7 @@ public class RestAuthController {
             default:
                 break;
         }
+
         if (null == authRequest) {
             throw new AuthException("未获取到有效的Auth配置");
         }
